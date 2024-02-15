@@ -1,11 +1,7 @@
-* {
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
-
 body{
-	background-color:lightcoral;	
+	background-color:lightcoral;
+  style="color: blue; 
+  font-size:18px;"	
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: normal;
