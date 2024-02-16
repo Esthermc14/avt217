@@ -1,11 +1,11 @@
 h1{
-color: lightgrey;
-font-size: 60px;
+color: darkslategrey;
+font-size: 80px;
 }
 body{
 	background-color:beige;
-  color: blue; 
-  font-size:18px;
+  color: darkslategrey; 
+  font-size:20px;
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: normal;
