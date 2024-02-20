@@ -1,13 +1,26 @@
-h1{
-color: darkslategrey;
-font-size: 80px;
-}
 body{
-	background-color:beige;
-  color: darkslategrey; 
-  font-size:20px;
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
+    margin: 0;
+    background-color:orange;
+    text-align: center;
+    top: 5%;
+    left:15%;
+    right:15%;
+    position: absolute;
+    font-size:30px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: bisque;
+}
 
+h1{
+    font-size:80px; border-style: dashed; text-decoration: ; color: yellow; text-align: center; 
+}
+
+a:hover {
+    color: yellow; 
+}
+
+a{
+    color: hotpink; text-decoration: none;
 }
