@@ -1,14 +1,23 @@
 h1{
-color: darkslategrey;
+    border-style: dashed;
+color: gold;
 font-size: 80px;
 }
 body{
-	background-color:beige;
-  color: darkslategrey; 
-  font-size:20px;
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
+	background-color:rosybrown;
+      color: gold; 
+      font-size:20px;
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      right: 25%;
+      font-style: normal;
 
 }
 
+p{
+    border-style: dashed;
+}
+
+ul{
+    border-style: dashed;
+}
