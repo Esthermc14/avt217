@@ -22,3 +22,7 @@ p{
 ul{
     border-style: dashed;
 }
+
+a:hover {color:gold;}
+
+a{color:darkslategrey;}
