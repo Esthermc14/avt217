@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+    background-color: lightblue;
+    color:darkslategrey;
+    font-family: DM Serif Display;
+    font-size:20px;
+    text-align: left; 
+    top: 5%;
+    left:5%;
+    right:5%;
+    position: absolute;
+}
+h1{
+    color:yellow;
+    margin: 0px;
+    text-align: left;
+    font-size:50px;
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-style: normal;
+}
+.home-title{
+    text-align: center;
+    font-family: Luckiest Guy;
+    font-size:70px;
+    font-weight: 400;
+    border-style: dashed;
+    border-color: skyblue;
+    background-color: skyblue;
+}
+
+.pg0{
+    background-color:lightyellow;
+    text-align: center;
+    top: 15%;
+    position: absolute;
+    font-size:30px;
+    font-family: DM Serif Display, cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: darkslategrey;
+}
+
+a:hover {color:yellow;}
+
+a{color:steelblue; text-decoration: none;}
