@@ -1,0 +1,27 @@
+h1{
+    border-style: dashed;
+color: gold;
+font-size: 80px;
+}
+body{
+	background-color:rosybrown;
+      color: gold; 
+      font-size:20px;
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      right: 25%;
+      font-style: normal;
+
+}
+
+p{
+    border-style: dashed;
+}
+
+ul{
+    border-style: dashed;
+}
+
+a:hover {color:gold;}
+
+a{color:darkslategrey;}
