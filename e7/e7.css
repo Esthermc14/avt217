@@ -1,12 +1,36 @@
-h1{
-color: gold;
-font-size: 60px;
-}
+
 body{
-	background-color:lavenderblush;
-      color: black; 
-      font-size:20px;
-      font-family: "DM Serif Display", serif;
-      font-weight: 400;
-      right: 25%;
-      font-style: normal;
+    margin-left: 5%;
+    margin-right:5%;
+	background-color:lightgoldenrodyellow;
+    color: black; 
+    font-size:16px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+color: darkred;
+font-size: 60px;
+text-align: center;
+font-style: bold;
+}
+
+#author{
+    font-style: italic;
+}
+
+h2{
+    color: brown;
+    font-size: 25px;
+}
+ul li{ font-style: italic;
+
+
+}
+
+h3{
+    color: indianred;
+    background-color: black;
+}
