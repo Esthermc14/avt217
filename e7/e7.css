@@ -1,20 +1,21 @@
 
 body{
-    margin-left: 5%;
-    margin-right:5%;
-	background-color:lightgoldenrodyellow;
+    margin-left: 12%;
+    margin-right:12%;
+	background-color:palegoldenrod;
     color: black; 
-    font-size:16px;
+    font-size:18px;
     font-family: "Fira Sans Extra Condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 h1{
-color: darkred;
-font-size: 60px;
+color: orangered;
+font-size: 70px;
 text-align: center;
 font-style: bold;
+text-decoration: underline;
 }
 
 #author{
@@ -22,8 +23,9 @@ font-style: bold;
 }
 
 h2{
-    color: brown;
-    font-size: 25px;
+    color: lightcoral;
+    font-size: 30px;
+    font-style: bold;
 }
 ul li{ font-style: italic;
 
@@ -31,6 +33,6 @@ ul li{ font-style: italic;
 }
 
 h3{
-    color: indianred;
+    color: darkorange;
     background-color: black;
 }
