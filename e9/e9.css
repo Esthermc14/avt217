@@ -1,28 +1,56 @@
-*{box-sizing: border-box;}
-body{
-    margin:0px;
-}
-#p1-1{background-color: red;}
-.p1-1{
-    width:100px;
-    height: 200px;
-    background: black;
-    float: left;
-    margin:10px;
-    transform: rotate(45deg);
-    border:5px solid darkseagreen;
-    overflow: ;
-}
-.p2-1{
-    width:400px;
-    height: 600px;
-    background: blue;
+*{box-sizing: border-box; margin: 0px;}
+body{margin:0px;}
+
+#p1{background: black;}
+.p1-1{background:red;
+    width:70px;
+    height: 70px;
     float: left;
     margin:15px;
+    border:15px solid white;
     transform: rotate(45deg);
-    border border-top-left-radius:5px;
 }
+.p1-2{
+    width:30px;
+    height: 30px;
+    background: red;
+    float: left;
+    transform: rotate(45deg);
+    margin-top: 20px;
+}
+
+#p2{background: darkturquoise; }
+.p2-1{
+    width:30px;
+    height: 30px;
+    background: yellow;
+    float: left;
+    margin-top: 20px;
+    transform: rotate(135deg);
+    margin:15px;
+}
+.p2-2{
+    width:30px;
+    height: 73px;
+    background: forestgreen;
+    float: left;
+    margin-top: 20px;
+    transform: rotate(45deg);
+}
+
+.p2-3{
+    width:30px;
+    height:70px;
+    background: black;
+    float: left;
+    margin-top: 20px;
+    transform: rotate(135deg);
+}
+
+
+#p3{background:gainsboro;}
 .p3-1{
+    background: blue;
     width:60px;
     height: 60px;
     background: pink;
@@ -31,6 +59,16 @@ body{
     transform: rotate(45deg);
     border:10px solid darkseagreen;
     overflow: ;
+}
+
+#p4{background: darkgreen;}
+.p4-1{
+
+}
+
+#p5{background: steelblue;}
+.p5-1{
+
 }
 
 
