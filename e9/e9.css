@@ -19,6 +19,7 @@ body{margin:0px;}
     margin-top: 20px;
 }
 
+
 #p2{background: darkturquoise; }
 .p2-1{
     width:30px;
@@ -28,6 +29,7 @@ body{margin:0px;}
     margin-top: 20px;
     transform: rotate(135deg);
     margin:15px;
+    border-radius: 50% ;
 }
 .p2-2{
     width:30px;
@@ -41,24 +43,40 @@ body{margin:0px;}
 .p2-3{
     width:30px;
     height:70px;
-    background: black;
+    background: yellowgreen;
     float: left;
     margin-top: 20px;
     transform: rotate(135deg);
 }
 
 
-#p3{background:gainsboro;}
+#p3{background:orangered;}
 .p3-1{
-    background: blue;
-    width:60px;
-    height: 60px;
-    background: pink;
+    width:120px;
+    height:120px;
     float: left;
-    margin:20px;
-    transform: rotate(45deg);
-    border:10px solid darkseagreen;
+    margin:10px;
+    transform: rotate(135deg);
+    border:5px solid hotpink;
+    border-radius:60% black;
     overflow: ;
+}
+.p3-2{
+    width:70px;
+    height: 70px;
+    background: forestgreen;
+    float: left;
+    margin-top: 20px;
+    transform: rotate(45deg);
+}
+
+.p3-3{
+    width:10px;
+    height:70px;
+    background: black;
+    float: left;
+    margin-top: 20px;
+    transform: rotate(135deg);
 }
 
 #p4{background: darkgreen;}
