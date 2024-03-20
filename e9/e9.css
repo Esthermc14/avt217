@@ -9,6 +9,8 @@ body{margin:0px;}
     margin:15px;
     border:15px solid white;
     transform: rotate(45deg);
+    margin-left: 0px;
+    border-left: 0px;
 }
 .p1-2{
     width:30px;
@@ -64,102 +66,36 @@ body{margin:0px;}
     filter: blur(5px)
 }
 
-#p4{background-image: linear-gradient(to bottom right, red, yellow)}
-
-.p4-1{
-    width:50px;
-    height:50px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-    margin-top: 0px;
-
+#p4{background-image: linear-gradient(to bottom right, darkblue, white)}
+.p4-1 {
+  width: 80px;
+  height: 80px;
+  background: orange;
+  position: relative;
+  top: 0px;
+  float: left;
 }
-
-.p4-2{
-    width:75px;
-    height:75px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-     margin-top:25px;
+.p4-2 {
+  width: 100px;
+  height: 200px;
+  background: navy;
+  border-radius: 50%;
+  top: 20px;
+  transform: rotate(135deg);
+  float: left;
 }
 .p4-3{
-    width:100px;
-    height:100px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-     margin-top:50px;
-}
-.p4-4{
-    width:125px;
-    height:125px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-    margin-top: 100px;
-}
-.p4-5{
-    width:150px;
-    height:150px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-     margin-top: 150px;
-}
-.p4-6{
-    width:15px;
-    height:15px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-    margin-top:0px;
-
+  width: 100px;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  top: 20px;
+  transform: rotate(45deg);
+  float: left;
 }
 
-.p4-7{
-    width:200px;
-    height:200px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-     margin-top:5px;
-}
-.p4-8{
-    width:225px;
-    height:225px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-     margin-top:15px;
-}
-.p4-9{
-    width:250px;
-    height:250px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-     margin-top: 25px;
-}
-.p4-10{
-    width:275px;
-    height:275px;
-    background: yellow;
-    transform: rotate(135deg);
-    border-radius: 50% ;
-    float: left;
-     margin-top: 30px;
-}
+
+
 
 #p5{background: dimgrey;}
 
