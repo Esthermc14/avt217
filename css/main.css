@@ -1,28 +1,48 @@
+*{box-sizing: border-box;}
 
 h1{
     border-style: dashed;
-color: gold;
-font-size: 80px;
-}
+    color: gold;
+    font-size: 60px;
+    }
+
 body{
 	background-color:rosybrown;
-      color: gold; 
-      font-size:20px;
-      font-family: "DM Serif Display", serif;
-      font-weight: 400;
-      right: 25%;
-      font-style: normal;
+    color: gold; 
+    font-size:20px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-}
-
-p{
-    border-style: dashed;
-}
-
-ul{
-    border-style: dashed;
-}
+p{border-style: dashed;}
 
 a:hover {color:gold;}
 
 a{color:darkslategrey;}
+
+/******Layout Styles*****/
+header{
+    width: 75vw;
+    margin: 25px auto;
+}
+
+main{
+    width: 75vw;
+    margin: 25px auto;
+    display: flow-root;
+}
+
+.col{
+    width: 50%;
+    float: left;
+
+}
+
+
+/******Media Queries*****/
+@media screen and (max-width: 500px) {
+    .col{
+        width: 100%; 
+    }
+}

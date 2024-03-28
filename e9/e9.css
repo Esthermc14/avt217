@@ -1,4 +1,4 @@
-*{box-sizing: border-box; margin: 0px;}
+*{box-sizing: border-box; margin: 5px auto;}
 body{margin:0px;}
 
 #p1{background: black;}
@@ -6,7 +6,6 @@ body{margin:0px;}
     width:70px;
     height: 70px;
     float: left;
-    margin:15px;
     border:15px solid white;
     transform: rotate(45deg);
     margin-left: 15px;
@@ -19,7 +18,6 @@ body{margin:0px;}
     float: left;
     transform: rotate(45deg);
     margin-top: 20px;
-    margin:15px;
 }
 
 
@@ -64,7 +62,6 @@ body{margin:0px;}
     border-radius:60% black;
     margin-left: 10px;
     flood-opacity: 5px;
-    filter: blur(5px)
 }
 
 #p4{background-image: linear-gradient(to bottom right, darkblue, white)}
