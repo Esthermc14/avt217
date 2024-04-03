@@ -13,7 +13,7 @@
 .house {
     width: 300px;
     height: 250px;
-    background-color: #ccc;
+    background-color: white;
     position: absolute;
     bottom: 100px;
     left: 50px;
@@ -24,7 +24,7 @@
     height: 0;
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
-    border-bottom: 100px solid red;
+    border-bottom: 100px solid firebrick;
     position: absolute;
     top: 0;
     left: 50%;
@@ -35,7 +35,7 @@
 .chimmeny {
     width: 50px;
     height: 100px;
-    background-color: brown;
+    background-color: indianred;
     position: absolute;
     top: 0px;
     left: 40px;
@@ -45,7 +45,7 @@
 .walls {
     width: 220px;
     height: 150px;
-    background-color: mintcream;
+    background-color: sandybrown;
     position: absolute;
     top: 100px;
     left: 40px;
@@ -54,7 +54,7 @@
 .window1{
     width: 50px;
     height: 50px;
-    background-color: #4ccff0d4;
+    background-color:powderblue;
     border: 2px solid grey;
     position: absolute;
     top: 50px;
@@ -67,7 +67,7 @@
 .window2 {
     width: 50px;
     height: 50px;
-    background-color: #4ccff0d4;
+    background-color: powderblue;
     border: 2px solid grey;
     position: absolute;
     top: 50px;
@@ -80,7 +80,7 @@
 .door {
     width: 60px;
     height: 80px;
-    background-color: burlywood;
+    background-color: saddlebrown;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -88,4 +88,14 @@
 	position: relative;
 	top:100px;
 	left:30px ;
+}
+.grass{
+	   position: absolute;
+       top: 20%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       height: 100px;
+       width: 200px;
+       border-radius: 150px 150px 0 0;
+       background-color: green
 }
