@@ -76,17 +76,6 @@
     justify-content: center;
     align-items: center;
 }
-.grass{
-	   position:absolute;
-       transform: translate(50%, 50%);
-       height: 100px;
-       width: 200px;
-       border-radius: 150px 150px 0 0;
-       top: 80%;
-       left: 50%;
-       width: 200px;
-       background-color: grey;
-}
 
 .door {
     width: 60px;
