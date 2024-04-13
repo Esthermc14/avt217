@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.red {
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.black {
+    background-color: #222222;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.board{
+    width:800px;
+    overflow: hidden;
+}
