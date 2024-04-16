@@ -1,14 +1,12 @@
-* {
-    margin: 10px;
+body{
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-header,
-section{
+header {
     background-color: red;
-    padding: 40px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -20,14 +18,13 @@ section{
     min-height: calc(100vh - 2 * 40px);
 }
 
-.column1 {
+.column1 { 
     background-color: transparent;
     min-height: 100%;
 }
 
 .column2 {
-    padding: 20px;
-    border: 1px solid #ccc;
+    border: 12px solid transparent;
     background-color: blue;
     height: 50%;
 }
@@ -35,12 +32,11 @@ section{
 .subcolumn1 { 
     background-color: pink;
     min-height: 80%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .subcolumn2 {
     background-color: green;
     min-height: 10%;
 }
-
 
