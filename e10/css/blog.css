@@ -1,16 +1,12 @@
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
 
 header,
-section,
-footer {
+section{
     background-color: red;
     padding: 40px 0;
     text-align: center;
@@ -24,33 +20,27 @@ footer {
     min-height: calc(100vh - 2 * 40px);
 }
 
-.columna1 {
-    
-    border: 1px solid #ccc;
+.column1 {
     background-color: transparent;
     min-height: 100%;
 }
 
-.columna2 {
+.column2 {
     padding: 20px;
     border: 1px solid #ccc;
     background-color: blue;
     height: 50%;
 }
 
-.subcolumna1 { 
+.subcolumn1 { 
     background-color: pink;
     min-height: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.subcolumna2 {
+.subcolumn2 {
     background-color: green;
-    min-height: 20%;
+    min-height: 10%;
 }
 
 
-footer {
-    background-color: red;
-    padding: 40px 0;
-}
