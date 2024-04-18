@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scene {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    animation: sun-progress 10s infinite linear;
+}
+
+.house {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 250px;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid firebrick;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.chimmeny {
+    width: 50px;
+    height: 100px;
+    background-color: indianred;
+    border: 2px solid firebrick;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    z-index: 0;
+}
+
+.walls {
+    width: 220px;
+    height: 150px;
+    background-color: sandybrown;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+.window1 {
+    width: 50px;
+    height: 50px;
+    background-color: powderblue;
+    border: 2px solid grey;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window2 {
+    width: 50px;
+    height: 50px;
+    background-color: powderblue;
+    border: 2px solid grey;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.door {
+    width: 60px;
+    height: 80px;
+    background-color: saddlebrown;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sun-moon {
+    position: absolute;
+    top: calc(50vh - 40px);
+    left: 0%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #e4ff1c;
+    animation: day-night 10s infinite linear;
+}
+
+.clouds {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cloud {
+    position: absolute;
+    top: 20px;
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+    animation: move 10s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+
+.cloud:nth-child(2) {
+    top: 40px;
+    left: 200px;
+    width: 180px;
+    height: 70px;
+    border-radius: 35px;
+    animation: move 12s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+
+.cloud:nth-child(3) {
+    top: 60px;
+    left: 0px;
+    width: 120px;
+    height: 45px;
+    border-radius: 22.5px;
+    animation: move 15s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+
+@keyframes sun-progress {
+    0% {
+        left: 0%;
+        background: linear-gradient(#00BFFF,#fffb9a);
+    }
+
+    12.5% {
+        background: linear-gradient(#68baff, #fffb9a);
+    }
+
+
+
+    50% {
+        background: linear-gradient(#ffc668, #fffb9a);
+    }
+
+    75% {
+        background: linear-gradient(#FFA07A,#fffb9a);
+    }
+
+    87.5% {
+        background: linear-gradient(#1a5569, #ffc668);
+    }
+
+    100% {
+        background: linear-gradient(#1a5569,#1c72ff);;
+    }
+}
+
+
+
+@keyframes move {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(1000%);
+    }
+}
+
+@keyframes day-night {
+    0% {
+        top: calc(100vh - 40px);
+        left: 0%;
+        background-color: #f0ff7e ;
+        background-size: cover;
+    }
+
+    12.5% {
+        top: calc(70vh - 40px);
+        left: 12.5%;
+        background-color: #f0ff7e ;
+        background-image: none;
+    }
+
+    25% {
+        top: calc(50vh - 40px);
+        left: 25%;
+        background-color: #f0ff7e ;
+        background-image: none;
+    }
+
+    37.5% {
+        top: calc(30vh - 40px);
+        left: 37.5%;
+        background-color: #f0ff7e ;
+        background-image: none;
+    }
+
+    50% {
+        top: calc(20vh - 40px);
+        left: 50%;
+        background-color: #f0ff7e ;
+        background-image: none;
+    }
+
+    62.5% {
+        top: calc(30vh - 40px);
+        left: 62.5%;
+        background-color: #f0ff7e ;
+        background-image: none;
+    }
+
+    75% {
+        top: calc(50vh - 40px);
+        left: 75%;
+        background-color: orange;
+        background-image: none;
+    }
+
+    87.5% {
+        top: calc(70vh - 40px);
+        left: 87.5%;
+        background-color: orange;
+        background-image: none;
+    }
+
+    100% {
+        top: calc(100vh - 40px);
+        left: 100%;
+        background-color: orange;
+        background-size: cover;
+    }
+}
