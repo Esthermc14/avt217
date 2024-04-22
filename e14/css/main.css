@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.square{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	margin: 200px auto 0;
+}
+.square:hover{
+	cursor: pointer;
+}
+
+}
+.circle{
+	border-radius: 50%;
+}
+.on{
+	visibility: hidden;
+}
+.off{
+	display: none;
+}
